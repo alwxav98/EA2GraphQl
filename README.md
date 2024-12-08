@@ -31,7 +31,7 @@ This project implements a basic GraphQL server in Python, using Flask and Ariadn
 
 5. Trying the API
 You can run queries in the graphical interface of /graphql_ui, for example:
-   ```json
+   ```graphql
    query {
      hello
    }
