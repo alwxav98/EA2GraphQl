@@ -36,11 +36,11 @@ You can run queries in the graphical interface of /graphql_ui, for example:
      hello
    }
    ```
-This should return:
-```json
-   {
-    "data": {
-      "hello": "Hola desde GraphQL"
-    }
-   }
-   ```
+   This should return:
+   ```json
+      {
+       "data": {
+         "hello": "Hola desde GraphQL"
+       }
+      }
+      ```
