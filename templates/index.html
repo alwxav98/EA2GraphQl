@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ ViewData["Title"] }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Fondo de la página */
+        body {
+            background-color: #DAF7A6; /* Cambia el color de fondo (por ejemplo, un color azul claro) */
+        }
+
+        /* Estilo para el texto */
+        .display-4 {
+            font-size: 2.5rem; /* Hace el texto más pequeño */
+            font-weight: bold; /* Hace el texto en negrita */
+        }
+
+        /* Estilo para la imagen */
+        .imagen-central {
+            width: 150px; /* Cambia el tamaño de la imagen */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <br>
+        <br>
+        <h2 class="display-4">Universidad Central del Ecuador</h2>
+        <br>
+        <img src="{{ url_for('static', filename='logoUCE.png') }}" alt="Imagen Universidad Central" class="imagen-central">
+        <br>
+        <br>
+        <h3 class="display-4">Facultad de Ingeniería y Ciencias Aplicadas</h3>
+        <h3 class="display-4">Sistemas de Información</h3>
+        <br>
+        <br>
+        <h3 class="display-4">Programación Distribuida</h3>
+        <br>
+        <h3 class="display-4">Tanya Alexandra Vaca Mena</h3>
+        <br>
+        <h3 class="display-4">SI8-002</h3>
+    </div>
+</body>
+</html>
