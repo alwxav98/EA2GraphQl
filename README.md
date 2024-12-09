@@ -27,7 +27,7 @@ This project implements a basic GraphQL server in Python, using Flask and Ariadn
    ```
 4. Access the application in your browser:
 - Home page: http://localhost:5000
-- API endpoint: http://http://localhost:5000/graphql_ui
+- API endpoint: http://localhost:5000/graphql_ui
 
 5. Trying the API
 You can run queries in the graphical interface of /graphql_ui, for example:
